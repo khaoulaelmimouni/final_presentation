@@ -1,0 +1,81 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #333;
+  }
+  
+header {
+    background-color: #fff;
+    color: #0F0C29;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+h1 {
+    font-size: 2.5em;
+  }
+  
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #12BCB5;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center; /* Centrer les images horizontalement */
+}
+.gallery img {
+  width: 50%;
+  max-width: 100px; /* Ajustez la taille maximale selon vos besoins */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #fff;
+    color: #0F0C29;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bg-lightblue {
+    background-color: #cfe4ff; /* Remplacez cette valeur par la couleur bleu ciel de votre choix */
+  }
+
+ 
+  
